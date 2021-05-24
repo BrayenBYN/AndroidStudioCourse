@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.giovanni.travel"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:6:5-42:19
+12        android:allowBackup="true"
+12-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Local Admin\.gradle\caches\transforms-2\files-2.1\12f6e28635c6f23ab2935deebdc0822c\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:12:9-40
+21        <activity
+21-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:14:9-22:20
+22            android:name="com.giovanni.travel.activity.MainActivity"
+22-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:15:13-50
+23            android:screenOrientation="portrait" >
+23-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:16:13-49
+24            <intent-filter>
+24-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:17:13-21:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:18:17-69
+25-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:18:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:20:17-77
+27-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:20:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:23:9-27:55
+31            android:name="com.giovanni.travel.activity.LoginActivity"
+31-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:24:13-51
+32            android:configChanges="keyboardHidden|orientation|screenSize"
+32-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:25:13-74
+33            android:screenOrientation="portrait"
+33-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:26:13-49
+34            android:windowSoftInputMode="adjustPan" />
+34-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:27:13-52
+35        <activity
+35-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:28:9-32:55
+36            android:name="com.giovanni.travel.activity.RegisterActivity"
+36-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:29:13-54
+37            android:configChanges="keyboardHidden|orientation|screenSize"
+37-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:30:13-74
+38            android:screenOrientation="portrait"
+38-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:31:13-49
+39            android:windowSoftInputMode="adjustPan" />
+39-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:32:13-52
+40        <activity
+40-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:33:9-35:52
+41            android:name="com.giovanni.travel.activity.ProfileActivity"
+41-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:34:13-53
+42            android:screenOrientation="portrait" />
+42-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:35:13-49
+43        <activity
+43-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:36:9-38:52
+44            android:name="com.giovanni.travel.activity.HistoryActivity"
+44-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:37:13-53
+45            android:screenOrientation="portrait" />
+45-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:38:13-49
+46        <activity
+46-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:39:9-41:52
+47            android:name="com.giovanni.travel.activity.BookKeretaActivity"
+47-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:40:13-56
+48            android:screenOrientation="portrait" />
+48-->D:\AndroidStudioProjects\Pemesanan-Tiket-Kereta-main\app\src\main\AndroidManifest.xml:41:13-49
+49    </application>
+50
+51</manifest>
